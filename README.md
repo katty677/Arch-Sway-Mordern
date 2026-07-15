@@ -72,6 +72,9 @@ your user and Sway starts automatically.
 - **Wallpaper** — replace `configs/sway/wallpaper.png` with your own image (any
   resolution; it's scaled with `fill`). It's referenced by `output * bg` in
   `configs/sway/output.conf`.
+- **Cursor (Bibata)** — the GTK config uses `Bibata-Modern-Ice`, which is AUR-only.
+  Install it with an AUR helper: `yay -S bibata-cursor-theme-bin` (or `paru`). The
+  cursor falls back to the default theme until then.
 - **Colors / apps** — edit `configs/sway/variables.conf` (modifier key, terminal,
   launcher, browser, theme colors).
 - **Packages** — add or remove entries in `packages/*.conf`; the installer reads
