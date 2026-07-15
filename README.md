@@ -19,7 +19,7 @@ shell environment, and an automated installer.
 Clone the repo and run the installer from its root directory:
 
 ```bash
-git clone <this-repo> arch-sway-modern
+git clone https://github.com/katty677/Arch-Sway-Mordern.git arch-sway-modern
 cd arch-sway-modern
 ./installer.sh
 ```
