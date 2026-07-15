@@ -4,6 +4,10 @@ A modern Wayland desktop setup for Arch Linux built around **Sway**, themed with
 Catppuccin Mocha palette. Includes Waybar, Wofi, Foot, Mako, greetd/tuigreet, a Fish
 shell environment, and an automated installer.
 
+## Screenshot
+
+![Arch Sway Modern desktop](docs/screenshot.png)
+
 ## Requirements
 
 - A fresh **Arch Linux** base install (booted, with network access)
