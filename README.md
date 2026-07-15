@@ -6,7 +6,7 @@ shell environment, and an automated installer.
 
 ## Screenshot
 
-![Arch Sway Modern desktop](docs/screenshot.png)
+![Arch Sway Modern desktop](docs/scrscreenshot.png)
 
 ## Requirements
 
