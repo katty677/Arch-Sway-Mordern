@@ -21,6 +21,7 @@ Clone the repo and run the installer from its root directory:
 ```bash
 git clone https://github.com/katty677/Arch-Sway-Mordern.git arch-sway-modern
 cd arch-sway-modern
+chmod +x installer.sh
 ./installer.sh
 ```
 
