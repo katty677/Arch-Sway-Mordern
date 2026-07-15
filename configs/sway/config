@@ -1,0 +1,30 @@
+# ==========================================
+# Arch Sway Modern Configuration
+# ==========================================
+
+# Import variables
+include ~/.config/sway/variables.conf
+
+# Import configuration modules
+include ~/.config/sway/bindings.conf
+include ~/.config/sway/input.conf
+include ~/.config/sway/output.conf
+include ~/.config/sway/appearance.conf
+include ~/.config/sway/autostart.conf
+include ~/.config/sway/idle.conf
+
+
+# Default layout
+workspace_layout tabbed
+
+
+# Focus follows mouse
+focus_follows_mouse yes
+
+
+# Prevent accidental floating
+floating_modifier $mod
+
+
+# Reload config shortcut
+bindsym $mod+Shift+c reload

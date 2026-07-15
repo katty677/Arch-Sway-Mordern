@@ -1,0 +1,93 @@
+{
+    "layer": "top",
+
+    "position": "top",
+
+    "height": 34,
+
+
+    "modules-left": [
+        "sway/workspaces",
+        "sway/mode"
+    ],
+
+
+    "modules-center": [
+        "clock"
+    ],
+
+
+    "modules-right": [
+        "cpu",
+        "memory",
+        "pulseaudio",
+        "network",
+        "battery",
+        "tray"
+    ],
+
+
+
+    "sway/workspaces": {
+
+        "format": "{name}",
+
+        "disable-scroll": true
+    },
+
+
+    "clock": {
+
+        "format": "  {:%H:%M}",
+
+        "tooltip-format": "{:%A %d %B %Y}"
+
+    },
+
+
+    "cpu": {
+
+        "format": " {usage}%"
+
+    },
+
+
+    "memory": {
+
+        "format": "󰍛 {}%"
+
+    },
+
+
+    "pulseaudio": {
+
+        "format": " {volume}%",
+
+        "format-muted": ""
+
+    },
+
+
+    "network": {
+
+        "format-wifi": " {essid}",
+
+        "format-disconnected": "󰤭"
+
+    },
+
+
+    "battery": {
+
+        "format": " {capacity}%"
+
+    },
+
+
+    "tray": {
+
+        "spacing": 8
+
+    }
+
+}
